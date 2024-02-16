@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    /* padding: 0 100px; */
+    margin: 0px 40px;
+}
+
+.box-size{
+    text-align: center;
+    justify-content: center;
+    /* height: 40vh; */
+    width: 50%;
+    /* padding: 70px 200px; */
+    margin: auto;
+    font-weight: 600;
+    font-size: 1vw;
+    color: white;
+    /* background-color: rgba(48, 48, 239, 0.952); */
+}
+
+@media only screen and (max-width:300px) {
+    .box-size{
+        display: block;
+        font-size: 3vw;
+        text-align: center;
+        width: 100%;
+        /* background-color: red; */
+    }
+}
+
+@media only screen and (min-width:300px) {
+    .box-size h4{
+        font-size: 3vw;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:300px){
+    .box-size{
+        display: block;
+        font-size: 2vw;
+        /* background-color: cyan; */
+    }
+}
+@media only screen and(min-width:0px) and (max-width:300px) {
+    .box-about1{
+        font-size: 3vw;
+
+    }
+}
+
+
+.card-title{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    /* padding: 50px 30px; */
+    /* margin: 60px 0px; */
+}
+
+.footer-last{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+}
+
+.img-about{
+    padding: 2rem 3rem;
+    margin: 0;
+    /* padding: 0; */
+    height: 50vh;
+    background-image: url('mindspace.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 60%;
+    color: white;
+}
